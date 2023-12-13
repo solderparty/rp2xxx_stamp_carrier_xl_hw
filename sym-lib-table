@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Interface_USB_Extra")(type "KiCad")(uri "${KIPRJMOD}/library/Interface_USB_Extra.kicad_sym")(options "")(descr ""))
+  (lib (name "Connector_Extra")(type "KiCad")(uri "${KIPRJMOD}/library/Connector_Extra.kicad_sym")(options "")(descr ""))
+)
