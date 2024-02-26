@@ -4,3 +4,9 @@
 [submodule "modules"]
 	path = modules
 	url = https://github.com/arturo182/kicad-modules.git
+[submodule "flexypin"]
+	path = flexypin
+	url = https://github.com/solderparty/flexypin.git
+[submodule "rp2xxx_stamp_footprints"]
+	path = rp2xxx_stamp_footprints
+	url = https://github.com/solderparty/rp2040_stamp_footprints.git

@@ -1,0 +1,6 @@
+(version 1)
+
+(rule "Custom Annular Width for Stamp"
+    (condition "A.memberOfFootprint('U3')")
+    (constraint annular_width (min 0.05mm))
+)

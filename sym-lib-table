@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "Interface_USB_Extra")(type "KiCad")(uri "${KIPRJMOD}/library/Interface_USB_Extra.kicad_sym")(options "")(descr ""))
   (lib (name "Connector_Extra")(type "KiCad")(uri "${KIPRJMOD}/library/Connector_Extra.kicad_sym")(options "")(descr ""))
+  (lib (name "Regulator_Switching_Extra")(type "KiCad")(uri "${KIPRJMOD}/library/Regulator_Switching_Extra.kicad_sym")(options "")(descr ""))
+  (lib (name "RP2040_Stamp")(type "KiCad")(uri "${KIPRJMOD}/rp2xxx_stamp_footprints/KiCad/RP2040_Stamp.kicad_sym")(options "")(descr ""))
 )

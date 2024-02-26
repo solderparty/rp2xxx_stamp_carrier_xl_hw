@@ -1,7 +1,7 @@
 (kicad_sch
 	(version 20231120)
 	(generator "eeschema")
-	(generator_version "7.99")
+	(generator_version "8.0")
 	(uuid "896a80a2-fa00-469b-993f-40479282ad1c")
 	(paper "A4")
 	(lib_symbols
@@ -1395,6 +1395,150 @@
 				)
 			)
 		)
+		(symbol "Jumper:Jumper_2_Bridged"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Bridged"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, closed/bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_1"
+				(arc
+					(start 1.524 0.254)
+					(mid 0 0.762)
+					(end -1.524 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Switch:SW_SPDT"
 			(pin_names
 				(offset 0) hide)
@@ -1611,7 +1755,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1662,7 +1806,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0) hide
-					(name "+3V3"
+					(name "+3.3V"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1731,7 +1875,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1827,7 +1971,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1932,6 +2076,12 @@
 		(color 0 0 0 0)
 		(uuid "b2891e1f-d294-4d3e-94d6-86ded58e1df9")
 	)
+	(junction
+		(at 149.86 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1316eec-92d4-4c06-8396-06cde7274161")
+	)
 	(no_connect
 		(at 130.81 80.01)
 		(uuid "5108299d-4ac2-4908-a008-0f8ac86ccac1")
@@ -1939,6 +2089,16 @@
 	(no_connect
 		(at 130.81 82.55)
 		(uuid "7af1c33a-8f0f-4729-8606-a997e9f38141")
+	)
+	(wire
+		(pts
+			(xy 166.37 140.97) (xy 165.1 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0535ec46-eabf-4810-a5b0-8c15e61a8fe4")
 	)
 	(wire
 		(pts
@@ -2062,6 +2222,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 140.97) (xy 133.35 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3371a098-dd5b-4bbe-91e1-bbc6d71d0551")
+	)
+	(wire
+		(pts
 			(xy 144.78 87.63) (xy 158.75 87.63)
 		)
 		(stroke
@@ -2162,6 +2332,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 140.97) (xy 149.86 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6565fb94-208d-4401-9644-d8b799575dc1")
+	)
+	(wire
+		(pts
 			(xy 111.76 91.44) (xy 111.76 92.71)
 		)
 		(stroke
@@ -2242,6 +2422,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 140.97) (xy 154.94 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e721d77-9c80-42b2-84ee-b8e4025cd973")
+	)
+	(wire
+		(pts
 			(xy 113.03 138.43) (xy 111.76 138.43)
 		)
 		(stroke
@@ -2259,16 +2449,6 @@
 			(type solid)
 		)
 		(uuid "98e2cfef-07dc-4f77-9334-f8429f2a6dec")
-	)
-	(wire
-		(pts
-			(xy 123.19 140.97) (xy 149.86 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9af49641-d500-44b2-8c9f-bc75f052da2d")
 	)
 	(wire
 		(pts
@@ -2582,6 +2762,87 @@
 		)
 		(uuid "23a38fcf-7394-4481-a1dc-3da13f272bb9")
 	)
+	(hierarchical_label "SWITCH"
+		(shape bidirectional)
+		(at 166.37 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4215ff32-8589-43c1-a871-6664e68afde4")
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 135.89 140.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "133b9b47-dbf1-4f34-bffb-d195588f34b7")
+		(property "Reference" "R11"
+			(at 133.35 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100K"
+			(at 138.43 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 135.89 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4dc837af-789f-46e8-8970-e741d204cb44")
+		)
+		(pin "2"
+			(uuid "32db56c1-541c-4a21-9431-0506471ac13e")
+		)
+		(instances
+			(project "rp2xxx_stamp_carrier"
+				(path "/7dc57191-1ee2-4888-98f8-9f12d0d1da37/ad4040ae-0da1-4e97-af65-b9c935f098a2"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:VBUS")
 		(at 132.08 50.8 0)
@@ -2627,7 +2888,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
 			(at 132.08 50.8 0)
 			(effects
 				(font
@@ -2646,9 +2907,9 @@
 					(unit 1)
 				)
 			)
-			(project "rp2350_stamp_carrier"
+			(project "rp2xxx_stamp_carrier"
 				(path "/7dc57191-1ee2-4888-98f8-9f12d0d1da37/ad4040ae-0da1-4e97-af65-b9c935f098a2"
-					(reference "#PWR016")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -2696,7 +2957,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 157.48 111.76 0)
 			(effects
 				(font
@@ -2715,9 +2976,9 @@
 					(unit 1)
 				)
 			)
-			(project "rp2350_stamp_carrier"
+			(project "rp2xxx_stamp_carrier"
 				(path "/7dc57191-1ee2-4888-98f8-9f12d0d1da37/ad4040ae-0da1-4e97-af65-b9c935f098a2"
-					(reference "#PWR040")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -2766,7 +3027,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 111.76 144.78 0)
 			(effects
 				(font
@@ -2785,9 +3046,9 @@
 					(unit 1)
 				)
 			)
-			(project "rp2350_stamp_carrier"
+			(project "rp2xxx_stamp_carrier"
 				(path "/7dc57191-1ee2-4888-98f8-9f12d0d1da37/ad4040ae-0da1-4e97-af65-b9c935f098a2"
-					(reference "#PWR051")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -2886,7 +3147,7 @@
 			(uuid "475c31c6-d3d6-4ddf-96e9-145f4e982e81")
 		)
 		(instances
-			(project "rp2350_stamp_carrier"
+			(project "rp2xxx_stamp_carrier"
 				(path "/7dc57191-1ee2-4888-98f8-9f12d0d1da37/ad4040ae-0da1-4e97-af65-b9c935f098a2"
 					(reference "U2")
 					(unit 1)
@@ -2947,7 +3208,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C319148"
+		(property "LCSC" "C165948"
 			(at 115.57 67.31 0)
 			(effects
 				(font
@@ -3014,9 +3275,9 @@
 					(unit 1)
 				)
 			)
-			(project "rp2350_stamp_carrier"
+			(project "rp2xxx_stamp_carrier"
 				(path "/7dc57191-1ee2-4888-98f8-9f12d0d1da37/ad4040ae-0da1-4e97-af65-b9c935f098a2"
-					(reference "J13")
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -3067,7 +3328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
 			(at 125.73 104.14 0)
 			(effects
 				(font
@@ -3086,9 +3347,77 @@
 					(unit 1)
 				)
 			)
-			(project "rp2350_stamp_carrier"
+			(project "rp2xxx_stamp_carrier"
 				(path "/7dc57191-1ee2-4888-98f8-9f12d0d1da37/ad4040ae-0da1-4e97-af65-b9c935f098a2"
-					(reference "#PWR039")
+					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 160.02 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "605005ba-987c-4b77-838e-04790eaa9d04")
+		(property "Reference" "JP4"
+			(at 153.67 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "JP_USB_SWITCH"
+			(at 160.02 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 160.02 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 160.02 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7554e280-c62f-4564-b150-1b7509a307a0")
+		)
+		(pin "1"
+			(uuid "6ea9917d-4e09-4fc1-9e3a-0653f00f144c")
+		)
+		(instances
+			(project "rp2xxx_stamp_carrier"
+				(path "/7dc57191-1ee2-4888-98f8-9f12d0d1da37/ad4040ae-0da1-4e97-af65-b9c935f098a2"
+					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -3136,7 +3465,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 115.57 123.19 0)
 			(effects
 				(font
@@ -3155,9 +3484,9 @@
 					(unit 1)
 				)
 			)
-			(project "rp2350_stamp_carrier"
+			(project "rp2xxx_stamp_carrier"
 				(path "/7dc57191-1ee2-4888-98f8-9f12d0d1da37/ad4040ae-0da1-4e97-af65-b9c935f098a2"
-					(reference "#PWR041")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -3205,7 +3534,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 111.76 92.71 0)
 			(effects
 				(font
@@ -3224,9 +3553,9 @@
 					(unit 1)
 				)
 			)
-			(project "rp2350_stamp_carrier"
+			(project "rp2xxx_stamp_carrier"
 				(path "/7dc57191-1ee2-4888-98f8-9f12d0d1da37/ad4040ae-0da1-4e97-af65-b9c935f098a2"
-					(reference "#PWR033")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -3241,7 +3570,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8fb3f025-45d3-433b-a68c-fb2f955dec4c")
-		(property "Reference" "J17"
+		(property "Reference" "J18"
 			(at 121.92 101.6 0)
 			(effects
 				(font
@@ -3310,9 +3639,9 @@
 			(uuid "8287d91e-34c1-4130-a9a4-6169150b60a0")
 		)
 		(instances
-			(project "rp2350_stamp_carrier"
+			(project "rp2xxx_stamp_carrier"
 				(path "/7dc57191-1ee2-4888-98f8-9f12d0d1da37/ad4040ae-0da1-4e97-af65-b9c935f098a2"
-					(reference "J17")
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -3385,9 +3714,9 @@
 					(unit 1)
 				)
 			)
-			(project "rp2350_stamp_carrier"
+			(project "rp2xxx_stamp_carrier"
 				(path "/7dc57191-1ee2-4888-98f8-9f12d0d1da37/ad4040ae-0da1-4e97-af65-b9c935f098a2"
-					(reference "R1")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -3412,7 +3741,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "+3.3V"
 			(at 111.76 133.35 0)
 			(effects
 				(font
@@ -3438,7 +3767,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 111.76 137.16 0)
 			(effects
 				(font
@@ -3457,9 +3786,9 @@
 					(unit 1)
 				)
 			)
-			(project "rp2350_stamp_carrier"
+			(project "rp2xxx_stamp_carrier"
 				(path "/7dc57191-1ee2-4888-98f8-9f12d0d1da37/ad4040ae-0da1-4e97-af65-b9c935f098a2"
-					(reference "#PWR050")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -3532,9 +3861,9 @@
 					(unit 1)
 				)
 			)
-			(project "rp2350_stamp_carrier"
+			(project "rp2xxx_stamp_carrier"
 				(path "/7dc57191-1ee2-4888-98f8-9f12d0d1da37/ad4040ae-0da1-4e97-af65-b9c935f098a2"
-					(reference "R4")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -3612,7 +3941,7 @@
 			(uuid "ebe00937-3858-4e30-b990-2c75bec8589e")
 		)
 		(instances
-			(project "rp2350_stamp_carrier"
+			(project "rp2xxx_stamp_carrier"
 				(path "/7dc57191-1ee2-4888-98f8-9f12d0d1da37/ad4040ae-0da1-4e97-af65-b9c935f098a2"
 					(reference "SW3")
 					(unit 1)
@@ -3638,7 +3967,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "+3.3V"
 			(at 157.48 77.47 0)
 			(effects
 				(font
@@ -3664,7 +3993,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 157.48 81.28 0)
 			(effects
 				(font
@@ -3683,9 +4012,9 @@
 					(unit 1)
 				)
 			)
-			(project "rp2350_stamp_carrier"
+			(project "rp2xxx_stamp_carrier"
 				(path "/7dc57191-1ee2-4888-98f8-9f12d0d1da37/ad4040ae-0da1-4e97-af65-b9c935f098a2"
-					(reference "#PWR032")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -3733,7 +4062,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 146.05 60.96 0)
 			(effects
 				(font
@@ -3752,9 +4081,9 @@
 					(unit 1)
 				)
 			)
-			(project "rp2350_stamp_carrier"
+			(project "rp2xxx_stamp_carrier"
 				(path "/7dc57191-1ee2-4888-98f8-9f12d0d1da37/ad4040ae-0da1-4e97-af65-b9c935f098a2"
-					(reference "#PWR028")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
