@@ -5401,6 +5401,14 @@
 		(uuid "451fe2fc-6b15-479f-97c7-f42d6435879b")
 	)
 	(no_connect
+		(at 172.72 80.01)
+		(uuid "4e375232-129f-4ba8-bf66-87af04c9cb97")
+	)
+	(no_connect
+		(at 172.72 77.47)
+		(uuid "ed05edf0-661d-4c92-bc35-2f22ccb58338")
+	)
+	(no_connect
 		(at 49.53 81.28)
 		(uuid "f8ffbece-5a75-4506-b1b4-c138fe5c34dd")
 	)
@@ -8561,17 +8569,6 @@
 		)
 		(uuid "3f9aefe4-3374-4f07-a2c3-39f3c20e434b")
 	)
-	(label "LDO_EN"
-		(at 172.72 80.01 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "40fff945-ab60-410f-b204-51ab17d7b42a")
-	)
 	(label "GPIO23"
 		(at 200.66 100.33 0)
 		(fields_autoplaced yes)
@@ -9253,17 +9250,6 @@
 			(justify left bottom)
 		)
 		(uuid "96e166f9-28e9-4d87-9e8c-741721857f69")
-	)
-	(label "BAT_STAT"
-		(at 172.72 77.47 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "979a65dc-354b-45a9-9f4b-130eacbdbd1b")
 	)
 	(label "A0"
 		(at 195.58 153.67 180)
@@ -15057,7 +15043,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "DVI-D_Mini"
+		(property "Value" "DVI-D_Micro"
 			(at 96.52 96.52 0)
 			(effects
 				(font

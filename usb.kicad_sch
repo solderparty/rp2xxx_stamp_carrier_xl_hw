@@ -5,6 +5,108 @@
 	(uuid "896a80a2-fa00-469b-993f-40479282ad1c")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Small"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_Small_0_1"
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_Small_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:USB_A"
 			(pin_names
 				(offset 1.016)
@@ -39,7 +141,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" " ~"
+			(property "Datasheet" "~"
 				(at 3.81 -1.27 0)
 				(effects
 					(font
@@ -1395,22 +1497,22 @@
 				)
 			)
 		)
-		(symbol "Jumper:Jumper_2_Bridged"
+		(symbol "Jumper:Jumper_2_Open"
 			(pin_names
 				(offset 0) hide)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "JP"
-				(at 0 1.905 0)
+				(at 0 2.794 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Jumper_2_Bridged"
-				(at 0 -2.54 0)
+			(property "Value" "Jumper_2_Open"
+				(at 0 -2.286 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1435,7 +1537,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Jumper, 2-pole, closed/bridged"
+			(property "Description" "Jumper, 2-pole, open"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1462,7 +1564,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Jumper_2_Bridged_0_0"
+			(symbol "Jumper_2_Open_0_0"
 				(circle
 					(center -2.032 0)
 					(radius 0.508)
@@ -1486,11 +1588,11 @@
 					)
 				)
 			)
-			(symbol "Jumper_2_Bridged_0_1"
+			(symbol "Jumper_2_Open_0_1"
 				(arc
-					(start 1.524 0.254)
-					(mid 0 0.762)
-					(end -1.524 0.254)
+					(start 1.524 1.27)
+					(mid 0 1.778)
+					(end -1.524 1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -1500,7 +1602,7 @@
 					)
 				)
 			)
-			(symbol "Jumper_2_Bridged_1_1"
+			(symbol "Jumper_2_Open_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -1823,6 +1925,126 @@
 				)
 			)
 		)
+		(symbol "power:+5V"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_names
@@ -2065,10 +2287,22 @@
 		(uuid "7706db50-1b98-4b5e-adac-f6316a91f027")
 	)
 	(junction
+		(at 177.8 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7fe6ed41-c529-4d5a-a7d6-57a859ab6e07")
+	)
+	(junction
 		(at 157.48 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a65c374e-1210-445c-8a41-758ff4090ae7")
+	)
+	(junction
+		(at 177.8 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b009bf8a-9d90-49e9-a201-676582a9278f")
 	)
 	(junction
 		(at 132.08 67.31)
@@ -2092,7 +2326,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 140.97) (xy 165.1 140.97)
+			(xy 167.64 140.97) (xy 166.37 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2212,6 +2446,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 85.09) (xy 177.8 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f7edb3d-927e-40ae-89fe-195b9d30f64c")
+	)
+	(wire
+		(pts
 			(xy 157.48 81.28) (xy 157.48 82.55)
 		)
 		(stroke
@@ -2239,6 +2483,26 @@
 			(type solid)
 		)
 		(uuid "39dcdbad-3ffc-4683-90fe-4a6e709a32d2")
+	)
+	(wire
+		(pts
+			(xy 177.8 85.09) (xy 179.07 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e1fab2f-243f-4c65-a388-2d28965eee07")
+	)
+	(wire
+		(pts
+			(xy 177.8 81.28) (xy 177.8 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41abf8c8-55c0-4900-8916-82fca69350b9")
 	)
 	(wire
 		(pts
@@ -2412,6 +2676,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 82.55) (xy 179.07 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89517523-4431-406a-be3d-83aa1f8b251d")
+	)
+	(wire
+		(pts
 			(xy 115.57 121.92) (xy 116.84 121.92)
 		)
 		(stroke
@@ -2422,7 +2696,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 140.97) (xy 154.94 140.97)
+			(xy 149.86 140.97) (xy 156.21 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2740,7 +3014,7 @@
 	)
 	(hierarchical_label "USB_D+"
 		(shape bidirectional)
-		(at 177.8 82.55 0)
+		(at 179.07 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2752,7 +3026,7 @@
 	)
 	(hierarchical_label "USB_D-"
 		(shape bidirectional)
-		(at 177.8 85.09 0)
+		(at 179.07 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2764,7 +3038,7 @@
 	)
 	(hierarchical_label "SWITCH"
 		(shape bidirectional)
-		(at 166.37 140.97 0)
+		(at 167.64 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3055,6 +3329,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 177.8 86.36 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "420ed89e-acf6-40d8-857a-4d0b116450c2")
+		(property "Reference" "TP2"
+			(at 178.435 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TP_USB_D-"
+			(at 176.53 85.0901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 172.72 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 177.8 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4c19893-28dc-44e4-945d-79f09032da88")
+		)
+		(instances
+			(project "rp2xxx_stamp_carrier"
+				(path "/7dc57191-1ee2-4888-98f8-9f12d0d1da37/ad4040ae-0da1-4e97-af65-b9c935f098a2"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Interface_USB_Extra:MSUSB30")
 		(at 167.64 97.79 0)
 		(unit 1)
@@ -3284,7 +3625,75 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 161.29 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "605005ba-987c-4b77-838e-04790eaa9d04")
+		(property "Reference" "JP4"
+			(at 153.67 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "JP_USB_SWITCH"
+			(at 161.29 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 161.29 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 161.29 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7554e280-c62f-4564-b150-1b7509a307a0")
+		)
+		(pin "1"
+			(uuid "6ea9917d-4e09-4fc1-9e3a-0653f00f144c")
+		)
+		(instances
+			(project "rp2xxx_stamp_carrier"
+				(path "/7dc57191-1ee2-4888-98f8-9f12d0d1da37/ad4040ae-0da1-4e97-af65-b9c935f098a2"
+					(reference "JP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
 		(at 125.73 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3292,8 +3701,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5b0b2321-68df-4460-a288-e756f8396955")
-		(property "Reference" "#PWR0118"
+		(uuid "6412bcf9-a254-4201-b12d-a4437ca543aa")
+		(property "Reference" "#PWR051"
 			(at 127 102.87 0)
 			(effects
 				(font
@@ -3302,7 +3711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBUS"
+		(property "Value" "+5V"
 			(at 125.73 100.33 0)
 			(effects
 				(font
@@ -3328,7 +3737,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 125.73 104.14 0)
 			(effects
 				(font
@@ -3338,86 +3747,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "75fd8606-04bd-422d-b0bd-7df73832254b")
-		)
-		(instances
-			(project "rp2040_stamp_carrier"
-				(path "/5b7c14af-0dec-4110-816c-7b17205e8ed2"
-					(reference "#PWR0118")
-					(unit 1)
-				)
-			)
-			(project "rp2xxx_stamp_carrier"
-				(path "/7dc57191-1ee2-4888-98f8-9f12d0d1da37/ad4040ae-0da1-4e97-af65-b9c935f098a2"
-					(reference "#PWR0106")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 160.02 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "605005ba-987c-4b77-838e-04790eaa9d04")
-		(property "Reference" "JP4"
-			(at 153.67 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "JP_USB_SWITCH"
-			(at 160.02 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 160.02 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 160.02 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7554e280-c62f-4564-b150-1b7509a307a0")
-		)
-		(pin "1"
-			(uuid "6ea9917d-4e09-4fc1-9e3a-0653f00f144c")
+			(uuid "99f35dfb-c8f2-4786-bf64-c9ec92de833c")
 		)
 		(instances
 			(project "rp2xxx_stamp_carrier"
 				(path "/7dc57191-1ee2-4888-98f8-9f12d0d1da37/ad4040ae-0da1-4e97-af65-b9c935f098a2"
-					(reference "JP4")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -3864,6 +4199,73 @@
 			(project "rp2xxx_stamp_carrier"
 				(path "/7dc57191-1ee2-4888-98f8-9f12d0d1da37/ad4040ae-0da1-4e97-af65-b9c935f098a2"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 177.8 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7331815-e9f3-4b87-8a14-07515377a944")
+		(property "Reference" "TP1"
+			(at 178.435 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_USB_D+"
+			(at 179.07 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 182.88 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 177.8 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7bd85268-7561-4035-95ec-46f347f591b3")
+		)
+		(instances
+			(project ""
+				(path "/7dc57191-1ee2-4888-98f8-9f12d0d1da37/ad4040ae-0da1-4e97-af65-b9c935f098a2"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
