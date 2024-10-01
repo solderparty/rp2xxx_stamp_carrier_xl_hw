@@ -10219,7 +10219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Red"
 			(at 102.87 35.56 0)
 			(effects
 				(font
@@ -10362,7 +10362,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_Stemma_QT"
+		(property "Value" "Conn_Qwiic"
 			(at 123.19 138.43 90)
 			(effects
 				(font
@@ -10586,7 +10586,7 @@
 		(at 236.22 153.67 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "11d2ab29-017e-4407-8b7c-103b28a35ed9")
@@ -10626,7 +10626,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Jumper, 3-pole, pins 1+2 closed/bridged"
+		(property "Description" ""
 			(at 236.22 153.67 0)
 			(effects
 				(font
@@ -10768,7 +10768,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4 resistor network, parallel topology"
+		(property "Description" ""
 			(at 115.57 90.17 0)
 			(effects
 				(font
@@ -10815,7 +10815,7 @@
 		(at 254 153.67 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "1f351842-5cfa-4aa4-9b58-a2f7560c022c")
@@ -10855,7 +10855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Jumper, 3-pole, pins 1+2 closed/bridged"
+		(property "Description" ""
 			(at 254 153.67 0)
 			(effects
 				(font
@@ -11332,7 +11332,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "do not mount, place in bag with board"
+			(at 57.15 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2905418"
 			(at 57.15 120.65 0)
 			(effects
 				(font
@@ -11897,7 +11906,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4 resistor network, parallel topology"
+		(property "Description" ""
 			(at 115.57 80.01 0)
 			(effects
 				(font
@@ -12055,7 +12064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TS-3025-A-A-B"
 			(at 63.5 45.72 0)
 			(effects
 				(font
@@ -12207,7 +12216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
+		(property "Description" ""
 			(at 118.11 35.56 0)
 			(effects
 				(font
@@ -13014,7 +13023,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "do not mount, place in bag with board"
+			(at 57.15 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C27438"
 			(at 57.15 146.05 0)
 			(effects
 				(font
@@ -13215,7 +13233,7 @@
 		(at 200.66 153.67 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "9e711faa-c065-430a-a9b2-81715ae8d1a2")
@@ -13255,7 +13273,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Jumper, 3-pole, pins 1+2 closed/bridged"
+		(property "Description" ""
 			(at 200.66 153.67 0)
 			(effects
 				(font
@@ -13325,7 +13343,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "do not mount, place in bag with board"
+			(at 39.37 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C27438"
 			(at 39.37 118.11 0)
 			(effects
 				(font
@@ -13712,7 +13739,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "do not mount, place in bag with board"
+			(at 95.25 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2685145"
 			(at 95.25 165.1 0)
 			(effects
 				(font
@@ -13797,7 +13833,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x18, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "do not mount, place in bag with board"
+			(at 95.25 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2911299"
 			(at 95.25 135.89 0)
 			(effects
 				(font
@@ -13895,7 +13940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
+		(property "Description" ""
 			(at 60.96 88.9 0)
 			(effects
 				(font
@@ -13963,7 +14008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TS-3025-A-A-B"
 			(at 63.5 33.02 0)
 			(effects
 				(font
@@ -14439,7 +14484,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TS-3025-A-A-B"
 			(at 63.5 26.67 0)
 			(effects
 				(font
@@ -14522,7 +14567,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "do not mount, place in bag with board"
+			(at 57.15 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C27438"
 			(at 57.15 168.91 0)
 			(effects
 				(font
@@ -14569,7 +14623,7 @@
 		(at 218.44 153.67 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "ee96ec65-96cd-4108-b87e-2bcd281a0939")
@@ -14609,7 +14663,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Jumper, 3-pole, pins 1+2 closed/bridged"
+		(property "Description" ""
 			(at 218.44 153.67 0)
 			(effects
 				(font
@@ -14680,7 +14734,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TS-3025-A-A-B"
 			(at 63.5 39.37 0)
 			(effects
 				(font
@@ -14756,7 +14810,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "do not mount, place in bag with board"
+			(at 39.37 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C27438"
 			(at 39.37 140.97 0)
 			(effects
 				(font
@@ -14841,7 +14904,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "do not mount, place in bag with board"
+			(at 39.37 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C27438"
 			(at 39.37 163.83 0)
 			(effects
 				(font
@@ -15069,7 +15141,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "HDMI 1.4+ type C connector"
+		(property "Description" ""
 			(at 95.504 99.568 0)
 			(effects
 				(font

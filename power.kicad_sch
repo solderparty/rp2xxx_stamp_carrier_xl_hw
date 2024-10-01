@@ -3836,7 +3836,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
+		(property "Description" ""
 			(at 158.75 134.62 0)
 			(effects
 				(font
@@ -4945,7 +4945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
+		(property "Description" ""
 			(at 161.29 57.15 0)
 			(effects
 				(font
@@ -5511,7 +5511,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Green"
 			(at 144.78 57.15 0)
 			(effects
 				(font
@@ -6290,7 +6290,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "do not mount, place in bag with board"
 			(at 110.49 104.14 0)
 			(effects
 				(font
